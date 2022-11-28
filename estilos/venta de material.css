@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    /*background: rgb(159, 194, 229);
+    background:rgb(0,58,255);*/
+    background: aqua;
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    background:#4965f1 ;
+}
+nav a{
+    color: rgb(3, 20, 20);
+    text-decoration: none;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: rgb(141, 148, 148);
+    color: black;
+}
+header>img{
+    width: 100%;
+    padding-bottom: 0px;
+}
+#contenedor1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#contenedor2{
+    display: flex;
+}
+.imagen>img{
+    width: 270px;
+    height: 260px;
+    border-radius: 50px;
+}
+.texto{
+    border: 2px solid aqua;
+    width: 230px;
+    height: 230px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#contenedor5{
+    background: #8295f8;
+    overflow: scroll;
+    width: 300px;
+    height: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+#mas a{
+    text-align: center;
+    color: beige;
+    font-size: 17px;
+    font-weight: bold;
+    width: 270px;
+    border: 2px solid black;
+    background: rgb(3, 3, 22);
+}
+#mas a:hover{
+    background-color: rgb(156, 157, 161);
+    color: rgb(10, 10, 10);
+}
+h6{
+    display: flex;
+    align-items: flex-end;
+}
+#navegador{
+    display: flex;
+    justify-content: center;
+    background: aqua;
+}
+#navegador .lin a{
+    background: #0f121f;
+    color: white;
+    border-radius: 50%;
+    border:1px solid #0f121f;
+    width: 1px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+#navegador .lin2 a{
+    background: #fbfbfc;
+    color: rgb(12, 10, 10);
+    border-radius: 50%;
+    border:1px solid #0f121f;
+    width: 1px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+#navegador .lin a:hover{
+    background: rgb(192, 183, 183);
+    color: #0f121f;
+}
+hr{
+    border: 1px solid #4965f1;
+}
+@media(max-width:768px){
+   #contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   #contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+}
